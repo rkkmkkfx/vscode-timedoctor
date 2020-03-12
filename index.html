@@ -16,7 +16,14 @@
   </ul>
 </body>
 <script>
-  console.log(window.location);
+  const hash = window.location.hash;
+  const hashArr = hash.split('&');
+  const hashObj = {};
+  hashArr.forEach(chunk => {
+    const pair = chunk.split('=');
+    hashObj[pair[0]] = pair[1];
+  });
+  console.log(hashObj);
 </script>
 
 </html>
