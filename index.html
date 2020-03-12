@@ -24,6 +24,8 @@
     hashObj[pair[0]] = pair[1];
   });
   console.log(hashObj);
+  document.getElementById('access').textContent = hashObj.access_token;
+  document.getElementById('refresh').textContent = hashObj.refresh_token;
 </script>
 
 </html>

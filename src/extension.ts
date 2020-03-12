@@ -76,7 +76,7 @@ function getWebviewContent() {
     <title>Cat Coding</title>
 </head>
 <body>
-    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" />
+  <a href="https://webapi.timedoctor.com/oauth/v2/auth?client_id=2352_634l182kq680wkocskc4084w0oks8skw4cc8wgo084cwsoowcc&response_type=token&redirect_uri=https%3A%2F%2Frkkmkkfx.github.io%2Fvscode-timedoctor%2F">Get tokens</a>
 </body>
 <script>
  console.log(window.location.origin);
