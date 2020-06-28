@@ -19,7 +19,28 @@
 				"command": "extension.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"configuration": {
+			"title": "TimeDoctor",
+			"properties": {
+				"timedoctor.access_token": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Access token"
+				},
+				"timedoctor.refresh_token": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Refresh token"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",

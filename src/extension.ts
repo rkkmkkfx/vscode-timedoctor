@@ -33,6 +33,8 @@ export async function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "vscode-timedoctor" is now active!');
 
+	console.log(vscode.workspace.getConfiguration('timedoctor'));
+
 	// Create and show panel
 	const panel = vscode.window.createWebviewPanel(
 		'catCoding',
