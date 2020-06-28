@@ -1,4 +1,4 @@
-# vscode-timedoctor README
+## vscode-timedoctor README
 
 This is the README for your extension "vscode-timedoctor". After writing up a brief description, we recommend including the following sections.
 
